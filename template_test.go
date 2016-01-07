@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"testing"
 	"time"
-
-	"github.com/kr/pretty"
 )
 
 func TestSign(t *testing.T) {
@@ -62,5 +60,5 @@ func TestMap(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	pretty.Println(test)
+	fmt.Println(test)
 }
